@@ -1,0 +1,71 @@
+---
+############################################################################
+# default config, already fixed in code..
+#- "domain": "default"
+#  "tags":
+#    - "path"       # /api/v2/search
+#    - "code"       # 200 302 etc....
+#    - "scheme"     # http|https
+#    - "method"     # POST|HEAD|GET etc..
+#    - "domain"     # www.wandoujia.com
+#    - "source"     # apps-extng0-bgp0.hy01
+#    - "upstream"   # 10.0.0.100:8080
+###############################################################################
+# example for www.wandoujia.com this config will over write default tags..
+# if you want to add new config, just put k=v in nginx logs.
+# no need to restart this app if you update this conf, automatically loaded.
+#
+#- "domain": "www.wandoujia.com"
+#  "tags":
+#    - "path"
+#    - "code"
+#    - "upstream"
+#    - "schema"
+#    - "method"
+#    - "domain"
+################################################################################
+#
+- "domain": "api.hy01.wandoujia.com"
+  "tags":
+    - "path"
+    - "code"
+    - "upstream"
+    - "schema"
+    - "method"
+    - "domain"
+    - "source"
+    - "X-Remote-App"
+
+- "domain": "apps.hy01.wandoujia.com"
+  "tags":
+    - "path"
+    - "code"
+    - "upstream"
+    - "schema"
+    - "method"
+    - "domain"
+    - "source"
+    - "X-Remote-App"
+
+- "domain": "games.hy01.internal.wandoujia.com"
+  "tags":
+    - "path"
+    - "code"
+    - "upstream"
+    - "schema"
+    - "method"
+    - "domain"
+    - "source"
+    - "X-Remote-App"
+
+- "domain": "mms.hy01.wandoujia.com"
+  "tags":
+    - "path"
+    - "code"
+    - "upstream"
+    - "schema"
+    - "method"
+    - "domain"
+    - "source"
+    - "X-Remote-App"
+
