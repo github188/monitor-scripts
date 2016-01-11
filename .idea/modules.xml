@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../index_dispatch/.idea/index_dispatch.iml" filepath="$PROJECT_DIR$/../index_dispatch/.idea/index_dispatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../loki/.idea/loki.iml" filepath="$PROJECT_DIR$/../loki/.idea/loki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ngxAnalyzer/.idea/ngxAnalyzer.iml" filepath="$PROJECT_DIR$/../ngxAnalyzer/.idea/ngxAnalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sre-scripts.iml" filepath="$PROJECT_DIR$/.idea/sre-scripts.iml" />
+    </modules>
+  </component>
+</project>
